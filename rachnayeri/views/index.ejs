@@ -1,0 +1,417 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--my css-->
+    <link rel="stylesheet" href="/public/stylesheets/index.css">
+    <!--google font poppins -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <!--font awesome from cdnjs copied link tag-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
+    <title>RachnaYeri</title>
+    <style>
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* global styled font*/
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* globally paragraph style*/
+p{
+    line-height: 1.6;
+    font-size: 0.9rem;
+    color: #606060;
+    font-weight: 500;
+}
+
+.start{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,168,255,0.3), rgba(0,168,255,0.3)) , url("https://images.pexels.com/photos/1766604/pexels-photo-1766604.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    clip-path: polygon(100% 0%, 100% 75%, 50% 100%, 0 75%, 0 0);
+}
+.nav-item a{
+    color: white;
+    font-weight: bold;
+}
+.navbar-brand{
+    color: white;
+    font-weight: bold; 
+}
+.header-section{
+    width: 100%;
+    height: inherit;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.center-div{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    /*for microsoft browser screens*/
+    -ms-transform: translate(-50%,-50%);
+    /*webkit for chrome mozilla firefox*/ 
+    -webkit-transform: translate(-50%,-50%);
+}
+/* waise to paragraph globally defined hain but center div wala change karo*/
+.center-div p{
+    font-size: 1.4rem;
+    color: #fff;
+    padding-bottom: 10px;
+}
+.btn{
+    transition: transform .2s;
+}
+.btn:hover{
+    transform: scale(1.5);
+}
+.zoom{
+    transition: transform .2s;
+}
+.zoom:hover{
+    transform: scale(1.5);
+}
+.header-extradiv{
+width: 100%;
+height: auto;
+margin-top: 100px;
+margin-bottom: 50px;
+text-align: center;
+background-color:#fff;
+}
+.extradiv{
+background-color:#fff;
+border-radius: 3px;
+padding:50px;
+transition: transform .2s;
+}
+.extradiv:hover{
+transform: scale(1.1);
+border-radius: 20px;
+border-color: #50d1c0;
+box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+}
+.extradiv:hover .txt{
+color: #50d1c0;
+font-weight: bold;
+}
+
+.footersection{
+    width: 100%;
+    height: auto;
+    padding-top: 80px;
+    padding-bottom: 20px;
+    background: #000;
+    position: relative;
+}
+.footersection p{
+    color: white;
+}
+.footersection h3{
+    color: #fff;
+    font-size: 1.2rem !important;
+    margin-bottom: 25px;
+}
+.slide{
+    padding: 20px;
+    height: auto;
+    background-color: #000;
+    color: #fff;
+}
+.card{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.overview{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.popup{
+    transition: transform .2s;
+}
+.popup:hover{
+    transform: scale(1.2);
+}
+.fa-phone{
+    color: blue;
+}
+ul {
+    list-style: none;
+    
+}
+li{
+    display: inline-block;
+    margin-left: 5px;
+}
+
+    </style>
+  </head>
+  <body>
+<!--header starts-->
+<section class="start">
+    
+        <nav class="navbar navbar-dark navbar-expand-lg">
+            <a class="navbar-brand" href="#">RachnaYeri</a>
+          
+          </nav>
+    
+  <section class="header-section">
+    <div class="center-div">
+        <h3 class="font-weight-bold zoom">Be A Part Of RachnaYeri</h3>
+        <p>Show Your Talent To The Whole World </p>
+        
+    </div>
+</section>
+</section>
+<!--header ends-->    
+<!--three horizontal extra divs start here-->
+<div class="header-extradiv">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-12 extradiv">
+                <a href="#"><i class="fa-3x fa fa-desktop" aria-hidden="true"></i></a>
+                 <h2 class="txt">Past Trends</h2>
+                 <p>Have you ever noticed that there are many platforms out there,
+                     where dancers,singers,actors and many other artists can show their Talent
+                    and get appreciated ; But what about Writers Or Poets? </p>
+                    <p>Yes , there are no such platforms where writers , poets, shayars can show their
+                        amazing creations.
+                    </p>
+                         
+            </div>
+            <div class="col-lg-4 col-md-4 col-12 extradiv">
+                <a href="#"><i class=" fa-3x fa fa-magic" aria-hidden="true"></i></a>
+                 <h2 class="txt">Here We Come</h2>
+                  <p>To make writers as popular as other artists , 
+                      we have taken up a step.</p>
+                   <p>RachnaYeri is the exact platform you have been seeking for such a long time. 
+                       Here, you can post your "Rachnas" (creations) and we will take care of its publicity.
+                   </p>
+                   <p class="txt">Exiciting , isn't it?</p>   
+            </div>
+            <div class="col-lg-4 col-md-4 col-12 extradiv">
+                <a href="#"><i class="fa-3x fa fa-trophy" aria-hidden="true"></i></a>
+                 <h2 class="txt">Your Bright Future</h2>
+                  <p>RachnaYeri is not just a platform where you can post 
+                      your art & get recognized out there; This is more of a Community,
+                      here you can find some experienced people in the same field 
+                      and can learn from them.  
+                  </p>
+                  <p class="txt">Sounds like you can even get your mentor here , right?</p>
+                </div>
+        </div>
+    </div>
+</div>
+
+<hr style=" border: solid 1px gray; margin:10px auto 10px auto;" />
+
+<!--three horizontal extra divs end here-->
+
+<!--slides section starts-->
+<section class="overview">
+    <div>
+        <h2>An Overview Of Our Community's Master-Pieces</h2>
+    </div>
+    <div class="bd-example">
+        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+            <section class="slide">
+              <div class="container">
+                  <div class="row">
+                      <div class="col-lg-12 col-sm-12 col-md-12">
+                        <h2>Tirama</h2>
+                        <hr style=" border: solid 1px #fff; margin:10px auto 10px auto;" />
+                        <p>‘Tis a mystery to paltry mortal eyes :</p>
+                       <p>The sanguine, heavenly sight of morrow</p>
+                       <p>For despite the star-crossed and forlorn cries</p>
+                       <p>This vision doth not wait upon sorrow</p>
+                       <p>One shineth light over the dusty souls;</p>
+                       <p>A ravenous reverie, but days are numbered</p>
+                        <p>One yarns hearsays of gleeful hearts in wholes</p>
+                        <p>Tempts us to get down the clouds encumbered</p>
+                        <p>Twinkles over and lulls by lullabies,</p>
+                       <p>One’s the ELIXIR that keeps us going</p>
+                        <p>Like the hues of skies, owns countless disguise</p>
+                        <p>One’s the aforesaid mystery worth knowing</p>
+                       <p>Leave it be; for price to pay would be death</p>
+                        <p>Beauty feeds over every single breath</p>
+                        <p style="color: #fff;">-By SATYAM AMAN</p>
+                    </div>
+                  </div>
+              </div>
+              </section>
+            </div>
+            <div class="carousel-item">
+                <section class="slide">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12 col-sm-12 col-md-12">
+                                <h2>Would It Still Be Me?</h2>
+                                <hr style=" border: solid 1px #fff; margin:10px auto 10px auto;" />
+                                <p>Would it still be me?</p>
+                                <p>When the waves lash on the shore,</p>
+                                <p>The shore stands quite.</p>
+                                <p>The sun still comes up afterEvery dark night.</p>  
+                                <p>The stars don't stop twinkling</p>
+                                <p>Though they are not praised like moon.</p>    
+                                <p>Some songs still bring back memories</p>
+                                <p>They don't have to be your favourite tune.</p>   
+                                <p>Still sometimes, the silence of the shore,</p>
+                                <p>Is more beautiful than the rising tide.</p>
+                                <p>People out there still crave starry nights</p>
+                                <p>Coz every night is a moonlit night.</p>
+                                <p>You could scream but I would wait for your calm.</p>
+                                <p>Our bond shall triumph every emotional storm.</p>
+                                <p>Each time in distress, you can let go of our bond.</p>
+                                <p>But If I didn't try to mend it at every dawn,</p> 
+                                <p>Would it still be me?</p>
+                                <p style="color: #fff;">-By ISHIKA GULATI</p>
+                            </div>
+                        </div>
+                    </div>
+                    </section>
+            </div>
+            <div class="carousel-item">
+                <section class="slide">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12 col-sm-12 col-md-12">
+                                <h2>Tequila</h2>
+                                <hr style=" border: solid 1px #fff; margin:10px auto 10px auto;" />
+                                <p>One shot! Two shots! Where is the lime?</p>
+<p>Throat’s burning! Throat’s burning! Never mind I’m fine.</p>
+<p>Spectacled, sassy with a striking smile</p>
+<p>The Physics Lab – you caught my eyes.</p>
+<p>You were so superficial, yet so super abyssal</p>
+<p>Honestly, yours was not that well of a disguise</p>
+<p>For I saw through it and my eyes shimmered.</p>
+<p>And they started seeing you for who you truly are.</p>
+<p>The fact you wrote too, made you a page turner.</p>
+<p>The closed book pens chalk and talks cheese; So Bizarre!</p>
+<p>And then we talked and then we fought.</p>
+<p>Messages went unseen, my patience not.</p>
+<p>“Damn! Am I doing something wrong?”,</p>
+<p>Thoughts in my head, “I ought not give up for naught.”</p>
+
+                                <p style="color: #fff;">-By SATYAM AMAN</p>         
+                            </div>
+                        </div>
+                    </div>
+                    </section>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+</section>
+<hr style=" border: solid 1px gray; margin:10px auto 10px auto;" />
+<!--slides section ends-->
+
+<!--CTA starts-->
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="card cta" style="width: 100%;">
+                    <img src="https://images.pexels.com/photos/3759089/pexels-photo-3759089.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Want to see more?</h5>
+                      <p class="card-text">Click on the button below to view some amazing and inspiring creations of our community.</p>
+                      <a href="/content" class="btn btn-primary">Have A Look</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="card cta" style="width: 100%;">
+                    <img src="https://images.pexels.com/photos/34587/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Ready To Post Your Own !!!</h5>
+                      <p class="card-text">Click on the button below to post your own writings/poems and be a part of our community.</p>
+                      <a href="/new" class="btn btn-primary">Post Your Own</a>
+                    </div>
+                  </div>
+
+        </div>
+    </div>
+</section>
+<!--CTA ends-->
+
+<!--footer starts-->
+<footer class="footersection">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-12 footer-div">
+                <div>
+                    <h3>ABOUT US</h3>
+                     <p>We are a small group of college students.
+                         After realising that due to lack of means of resources,
+                         our young talented writers are losing their passion in writing,
+                         for them writing has become just a hobby now, 
+                         where it could be something really amazing; 
+                         We started this intiative to bring their interest, hope & that passion back. 
+                     </p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 footer-div">
+                <div>
+                    <h3>OUR VISION</h3>
+                    <p>"To make lives of talented artists beautiful and bring them the respect, recognition & appreciation that they truly deserve."</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 footer-div">
+                <h3>CONTACT US</h3>
+                 <ul>
+                     <li><i class="fa-2x fa fa-phone" aria-hidden="true"></i></li>
+                     <li><p>+919625499783</p></li>
+                 </ul>
+                 <ul>
+                     <li><a href="https://rachnayeri@gmail.com"><i class="fa-2x fa fa-envelope popup" aria-hidden="true"></i></a></li>
+                     <li><p>Mail Us</p></li>
+                 </ul>
+                 <ul>
+                     <li><p>Follow us @</p></li>
+                     <li><a href="https://m.facebook.com/RachnaYeri-Community-113040920389096/"><i class="fa-2x fa fa-facebook-square popup" aria-hidden="true"></i></a></li>
+                     <li><a href="https://www.instagram.com/rachnayeri/"><i style="color: palevioletred;" class="fa-2x fa fa-instagram popup" aria-hidden="true"></i></a></li>
+                    </ul>
+            </div>
+
+        </div>
+    </div>
+</footer>
+<!--footer ends-->
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  </body>
+  </html>
